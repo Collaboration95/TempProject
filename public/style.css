@@ -1,0 +1,56 @@
+th, td {
+	text-align: left;
+	padding: 8px;
+	border: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+  th {
+	background-color: #4CAF50;
+	color: white;
+}
+
+body {
+	width: 100%;
+}
+  
+.Button {
+  display: block;
+  margin:0 auto;
+  padding: 10px 20px;
+  width:fit-content;
+  margin-top:10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #4CAF50;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#Load:hover {
+  background-color: #339933;
+}
+
+
+#chartContainer {
+  width: 400px;
+  height: 400px;
+ margin:0 auto;
+}
+.canvajs-chart-container{
+
+}
+.table-container {
+  display: block;
+  margin: auto;
+  overflow-x: scroll;
+  max-width: 60%;
+  max-height: 250px;
+  overflow-y:scroll;
+}
